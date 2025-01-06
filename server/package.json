@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch src/server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "prestart": "npm run lint"
+  },
+  "keywords": [],
+  "author": "Paulo Cesar",
+  "license": "ISC",
+  "description": "Servidor Express para lidar com prompts de texto usando OpenAI API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulocesardev8/IA-generativa-copilot-openai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulocesardev8/IA-generativa-copilot-openai/issues"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.77.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}

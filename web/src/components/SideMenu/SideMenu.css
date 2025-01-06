@@ -1,0 +1,24 @@
+/* Estilo para o menu lateral */
+.sidemenu {
+    width: 260px;
+    padding: 10px;
+    background-color: #202123;
+}
+
+/* Estilo para os botões do menu lateral */
+.sidemenu-button {
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    transition: all 0.25s ease; /* Correção na ordem da transição */
+}
+
+/* Efeito hover nos botões do menu lateral */
+.sidemenu-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Estilo para os elementos span dentro dos botões do menu lateral */
+.sidemenu-button span {
+    padding: 0 12px 0 6px; /* Combinei padding-left e padding-right */
+}

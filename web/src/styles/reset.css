@@ -1,0 +1,74 @@
+/* Reset CSS para garantir uma renderização uniforme de elementos HTML */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Configurações base para a tag html */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/* Configurações de imagem para garantir responsividade */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Configurações de box-sizing para todos os elementos e seus pseudoelementos */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Reset para garantir que novos elementos HTML5 sejam tratados de forma adequada em navegadores antigos */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Configurações base para o corpo do documento */
+body {
+    line-height: 1;
+}
+
+/* Remoção dos marcadores de lista para listas ordenadas e não ordenadas */
+ol, ul {
+    list-style: none;
+}
+
+/* Remoção de aspas de blockquotes e q */
+blockquote, q {
+    quotes: none;
+}
+
+/* Remoção de conteúdo gerado por pseudoelementos em blockquotes e q */
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* Reset para tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
